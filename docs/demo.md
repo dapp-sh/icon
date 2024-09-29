@@ -12,6 +12,12 @@ pnpm add -D @iconify-json/hugeicons
 
 2. Import the component
 
-```html
- <m-icon name="tabler:activity"></m-icon>
+```jsx
+import '@dapp-sh/icon'
+
+ export default function App() {
+    return (
+    <icon name="hugeicons:autocomplete"></icon>
+  )
+ }
 ```
